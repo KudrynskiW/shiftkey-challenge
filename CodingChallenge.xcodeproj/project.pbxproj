@@ -13,6 +13,9 @@
 		2349FD6D261E4F6A00A1FEAA /* CodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD6C261E4F6A00A1FEAA /* CodingChallengeTests.swift */; };
 		2349FD78261E4F6A00A1FEAA /* CodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD77261E4F6A00A1FEAA /* CodingChallengeUITests.swift */; };
 		2349FD89261E4F9900A1FEAA /* ShiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD88261E4F9900A1FEAA /* ShiftsView.swift */; };
+		9752AC5F295099A8005F02B7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9752AC5E295099A8005F02B7 /* NetworkManager.swift */; };
+		9752AC61295099FC005F02B7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9752AC60295099FC005F02B7 /* Constants.swift */; };
+		9752AC6429509B5B005F02B7 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9752AC6329509B5B005F02B7 /* Shift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		2349FD77261E4F6A00A1FEAA /* CodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingChallengeUITests.swift; sourceTree = "<group>"; };
 		2349FD79261E4F6A00A1FEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2349FD88261E4F9900A1FEAA /* ShiftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsView.swift; sourceTree = "<group>"; };
+		9752AC5E295099A8005F02B7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9752AC60295099FC005F02B7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9752AC6329509B5B005F02B7 /* Shift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,9 @@
 		2349FD59261E4F6900A1FEAA /* CodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				9752AC6529509B70005F02B7 /* Services */,
+				9752AC6229509B50005F02B7 /* Model */,
+				9752AC6629509B7C005F02B7 /* Helpers */,
 				2349FD5A261E4F6900A1FEAA /* CodingChallengeApp.swift */,
 				2349FD88261E4F9900A1FEAA /* ShiftsView.swift */,
 				2349FD5E261E4F6A00A1FEAA /* Assets.xcassets */,
@@ -128,6 +137,30 @@
 				2349FD79261E4F6A00A1FEAA /* Info.plist */,
 			);
 			path = CodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		9752AC6229509B50005F02B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9752AC6329509B5B005F02B7 /* Shift.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9752AC6529509B70005F02B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9752AC5E295099A8005F02B7 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9752AC6629509B7C005F02B7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9752AC60295099FC005F02B7 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9752AC5F295099A8005F02B7 /* NetworkManager.swift in Sources */,
 				2349FD89261E4F9900A1FEAA /* ShiftsView.swift in Sources */,
 				2349FD5B261E4F6900A1FEAA /* CodingChallengeApp.swift in Sources */,
+				9752AC61295099FC005F02B7 /* Constants.swift in Sources */,
+				9752AC6429509B5B005F02B7 /* Shift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
